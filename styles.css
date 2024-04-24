@@ -217,3 +217,70 @@ p {
 p {
   font-size: 12px;
 }
+
+@media only screen and (max-width: 768px) {
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    font-size: 14px; /* Tamanho de fonte ajustado para dispositivos móveis */
+  }
+
+  header #navbar {
+    padding: 0 1rem; /* Reduzir o espaçamento do cabeçalho em dispositivos móveis */
+  }
+
+  main #banner {
+    flex-direction: column; /* Alterar a direção da flexbox para empilhar os elementos verticalmente */
+    text-align: center; /* Centralizar o conteúdo */
+  }
+
+  main #banner .banner-content .banner-content-title {
+    font-size: 32px; /* Tamanho de fonte ajustado para dispositivos móveis */
+    line-height: 48px; /* Espaçamento de linha ajustado para dispositivos móveis */
+    margin-bottom: 20px; /* Espaçamento inferior ajustado para dispositivos móveis */
+  }
+
+  main #banner .banner-content .banner-content-subtitle {
+    font-size: 14px; /* Tamanho de fonte ajustado para dispositivos móveis */
+    line-height: 20px; /* Espaçamento de linha ajustado para dispositivos móveis */
+    max-width: 100%; /* Largura máxima ajustada para dispositivos móveis */
+    margin-bottom: 20px; /* Espaçamento inferior ajustado para dispositivos móveis */
+  }
+
+  main #banner .banner-content .banner-content-btn {
+    font-size: 13px; /* Tamanho de fonte ajustado para dispositivos móveis */
+    padding: 6px 16px; /* Preenchimento ajustado para dispositivos móveis */
+  }
+
+  main #banner .banner-image {
+    max-width: 200px; /* Largura máxima ajustada para dispositivos móveis */
+  }
+
+  #posts .posts-content {
+    padding: 0 1rem; /* Reduzir o espaçamento dos posts em dispositivos móveis */
+  }
+
+  #posts .posts-content .post-content-header {
+    padding: 1rem 0; /* Reduzir o espaçamento do cabeçalho dos posts em dispositivos móveis */
+  }
+
+  #posts .posts-content .posts-cards .post-card {
+    padding: 16px; /* Preenchimento ajustado para dispositivos móveis */
+  }
+
+  #posts .posts-content .posts-cards .post-card h3 {
+    font-size: 20px; /* Tamanho de fonte ajustado para dispositivos móveis */
+    margin-bottom: 20px; /* Espaçamento inferior ajustado para dispositivos móveis */
+  }
+
+  #posts .posts-content .posts-cards .post-card span {
+    font-size: 16px; /* Tamanho de fonte ajustado para dispositivos móveis */
+    margin-bottom: 10px; /* Espaçamento inferior ajustado para dispositivos móveis */
+  }
+
+  footer {
+    padding: 10px 0; /* Reduzir o espaçamento do rodapé em dispositivos móveis */
+  }
+}
