@@ -256,6 +256,10 @@ p {
 
   main #banner .banner-image {
     max-width: 200px; /* Largura máxima ajustada para dispositivos móveis */
+    align-items: center;
+    display: flex;
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+    margin-top: 20px; /* Adicionar margem superior para espaço */
   }
 
   #posts .posts-content {
