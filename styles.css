@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0%;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+}
+
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header #navbar .nav-brand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+header #navbar .nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+header #navbar .nav-list .nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header #navbar .nav-list .nav-item a:hover {
+  color: #777;
+  transition: 0.3s;
+}
+
+/* SECTION BANNER */
+
+main {
+  margin-top: 6rem;
+}
+
+main #banner {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+main #banner .banner-content .banner-content-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+main #banner .banner-content .banner-content-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 500px;
+  margin-bottom: 38px;
+}
+
+main #banner .banner-content .banner-content-btn {
+  background-color: #7900a8;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 8px 24px;
+  border: none;
+}
+
+main #banner .banner-image {
+  border-radius: 70%;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* SECTION POSTS */
+
+section#posts {
+  margin-top: 75px;
+  background-color: #e5b3fe;
+}
+
+#posts .posts-content {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#posts .posts-content .post-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+#posts .posts-content .posts-content-header .section-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#posts .posts-content .posts-content-header .section-title .view-all-link {
+  text-decoration: none;
+  color: #7900a8;
+}
+#posts .posts-content .posts-cards {
+  display: flex;
+  margin-bottom: 36px;
+  gap: 20px;
+}
+
+#posts .posts-content .posts-cards .post-card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 7px;
+}
+
+#posts .posts-content .posts-cards .post-card h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+#posts .posts-content .posts-cards .post-card span {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Icons */
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.icons li {
+  display: inline-block;
+  height: 2.5em;
+  line-height: 2.5em;
+  padding: 0 0.5em;
+}
+
+ul.icons li .icon {
+  font-size: 0.8em;
+}
+
+ul.icons li .icon:before {
+  font-size: 2em;
+}
+
+/* Footer */
+
+footer {
+  background-color: #7900a8;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons i {
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+}
